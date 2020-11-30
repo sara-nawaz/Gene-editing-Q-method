@@ -112,7 +112,7 @@ legend("topleft", legend=c("Cut-off @ PC3"),
 ### conduct basic Q analysis ######################################################################
 
 #Calculate results, including setting number of factors (**based on PCA conducted)
-results.tomato = qmethod(data.tomato, nfactors=3, rotation="varimax", forced = TRUE)
+results.tomato = qmethod(data.tomato, nfactors=2, rotation="varimax", forced = TRUE)
 
 #Print results
 results.tomato$qdc
@@ -258,7 +258,7 @@ legend("topleft", legend=c("Cut-off @ PC3"),
 ### conduct basic Q analysis ######################################################################
 
 #Calculate results, including setting number of factors (**based on PCA conducted)
-results.wheat = qmethod(data.wheat, nfactors=3, rotation="varimax", forced = TRUE)
+results.wheat = qmethod(data.wheat, nfactors=2, rotation="varimax", forced = TRUE)
 
 #Print results
 results.wheat$qdc
